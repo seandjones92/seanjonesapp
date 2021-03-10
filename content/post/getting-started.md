@@ -63,7 +63,7 @@ I turned to the [Docker Desktop](https://www.docker.com/docker-community) Slack 
 
 Since the ability to serve the project locally was broken I decided to try using Visual Studio Code to connect to a remote development machine. Since my goal is to leverage as many free cloud services as I can I decided to spin up an `f1-micro` instance on GCP.
 
-Google Cloud offers this small VM image to be run perpetually for free. That plus it's location in the cloud seemd to be the perfect combo. Since the build environment wouldn't be local at least in a public cloud it would be highly available to me.
+Google Cloud offers this small VM image to be run perpetually for free. That plus it's location in the cloud seemed to be the perfect combo. Since the build environment wouldn't be local at least in a public cloud it would be highly available to me.
 
 Spinning up the machine, adding my public SSH key, and connecting to it with the VSCode SSH plugin worked without issue. The problem with this method arose once the VSCode Server and the Jekyll tooling exhausted the 0.6 GB of RAM that comes with the `f1-micro` instance.
 
