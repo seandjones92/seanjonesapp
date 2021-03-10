@@ -1,6 +1,6 @@
 +++
 title = "Getting Started"
-date = "1986-09-17"
+date = "2021-03-09"
 author = "Sean"
 cover = "img/getting-started-cover.png"
 coverAlt = "git clone of Sean Jones app in a terminal"
