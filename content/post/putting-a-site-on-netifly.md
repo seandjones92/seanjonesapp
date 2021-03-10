@@ -1,5 +1,4 @@
 +++
-draft = false
 title = "Putting a site on Netifly"
 date = "2021-03-10"
 author = "Sean"
@@ -8,4 +7,4 @@ coverAlt = "Netlify can host your Hugo site with CDN, continuous deployment, 1-c
 description = "Putting a Hugo site up on Netifly for the first time"
 +++
 
-this is a draft
+For this write up I'll be doing my best to get this Hugo site up just by following [this](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/) documentation.
