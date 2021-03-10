@@ -2,7 +2,7 @@
 title = "Getting Started"
 date = "2021-03-09"
 author = "Sean"
-cover = "img/getting-started-cover.png"
+cover = "img/getting-started/getting-started-cover.png"
 coverAlt = "git clone of Sean Jones app in a terminal"
 description = "The first step towards documenting a journey, creating a space to document"
 +++
@@ -21,7 +21,7 @@ So before I started building this lab and documenting my progress on it I decide
 
 Since I had setup a simple site using this method before I was able to get my quick, single page, demo site up and running with my domain name in a couple minutes. The longest part was waiting for DNS to propogate so GitHub would apply the certificate to my page.
 
-{{< image src="/img/getting-started-01.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/getting-started/getting-started-01.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
 ## Where things went wrong
 
