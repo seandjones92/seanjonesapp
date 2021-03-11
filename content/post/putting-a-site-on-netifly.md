@@ -1,5 +1,4 @@
 +++
-draft=true
 title = "Putting a site on Netifly"
 date = "2021-03-10"
 author = "Sean"
