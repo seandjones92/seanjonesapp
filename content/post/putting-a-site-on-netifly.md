@@ -16,7 +16,7 @@ To get started I first had to create an account with Netifly. This is pretty str
 
 {{< image src="/img/putting-a-site-on-netifly/putting-a-site-on-netifly 1.png" alt="Netifly Dashboard" position="center" style="border-radius: 8px;" >}}
 
-I already like how upfront this service is about how much of my resources I've used for the month. The next step was to see if my site would build. I hit the "New site from Git" button and started working through the deployment wizard. After stepping through GitHub integration again (not sure why this is a separate step as my account is already created by leveraging my GitHub profile) and selecting the repository I wanted to build from I was very pleasently surprised that the wizard was able to pickup the correct build settings automatically:
+I already like how upfront this service is about how much of my resources I've used for the month. The next step was to see if my site would build. I hit the "New site from Git" button and started working through the deployment wizard. After stepping through GitHub integration again (not sure why this is a separate step as my account is already created by leveraging my GitHub profile) and selecting the repository I wanted to build from I was very pleasantly surprised that the wizard was able to pickup the correct build settings automatically:
 
 {{< image src="/img/putting-a-site-on-netifly/putting-a-site-on-netifly 2.png" alt="Create New Site Wizard for Netifly" position="center" style="border-radius: 8px;" >}}
 
@@ -72,6 +72,6 @@ Once I hit the "Add custom domain" button I supplied the domain name I wanted to
 
 {{< image src="/img/putting-a-site-on-netifly/putting-a-site-on-netifly 9.png" alt="Google Domains Name Server configuration screen" position="center" style="border-radius: 8px;" >}}
 
-Once the configuration propogated my Certificate was issued by [Let's Encrypt](https://letsencrypt.org) and I was able to access my site by the proper domain name
+Once the DNS configuration propagated my Certificate was issued by [Let's Encrypt](https://letsencrypt.org) and I was able to access my site by the proper domain name
 
 {{< image src="/img/putting-a-site-on-netifly/putting-a-site-on-netifly 12.png" alt="Final deployment with custom domain applied" position="center" style="border-radius: 8px;" >}}

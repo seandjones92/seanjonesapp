@@ -19,7 +19,7 @@ So before I started building this lab and documenting my progress on it I decide
 4) SSL certs are provided for free as well
 5) I've used it before briefly so was familiar with the process
 
-Since I had setup a simple site using this method before I was able to get my quick, single page, demo site up and running with my domain name in a couple minutes. The longest part was waiting for DNS to propogate so GitHub would apply the certificate to my page.
+Since I had setup a simple site using this method before I was able to get my quick, single page, demo site up and running with my domain name in a couple minutes. The longest part was waiting for DNS to propagate so GitHub would apply the certificate to my page.
 
 {{< image src="/img/getting-started/getting-started-01.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
