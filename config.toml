@@ -15,8 +15,8 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Sean Jones"
-    subtitle = "Seans website"
+    title = "SeanJones.App"
+    # subtitle = "Seans website"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
