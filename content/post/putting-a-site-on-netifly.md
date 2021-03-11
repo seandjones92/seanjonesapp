@@ -75,3 +75,7 @@ Once I hit the "Add custom domain" button I supplied the domain name I wanted to
 Once the DNS configuration propagated my Certificate was issued by [Let's Encrypt](https://letsencrypt.org) and I was able to access my site by the proper domain name
 
 {{< image src="/img/putting-a-site-on-netifly/putting-a-site-on-netifly 12.png" alt="Final deployment with custom domain applied" position="center" style="border-radius: 8px;" >}}
+
+## What comes next
+
+For the next post I'll be taking a look at how Netifly handles serverless functions. I'll probably start by setting up a simple health check endpoint to get a hang of the process then see if we can cook up something a little more fun for the second half 😀
