@@ -55,25 +55,25 @@ Luckily there was already [documentation](https://www.netlify.com/blog/2017/04/1
 
 After some more searching I found that I can instead configure this as a variable in Netlify directly.
 
-{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 3.png" alt="Netlify Environment Variables" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 5.png" alt="Netlify Environment Variables" position="center" style="border-radius: 8px;" >}}
 
 I tried once again to get a deployment off the ground. This time the environment variable method did the trick and the site was built and deployed in seconds! The only problem now is the name that it was hosted with is not great:
 
-{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 4.png" alt="My first hosted build on Netlify" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 6.png" alt="My first hosted build on Netlify" position="center" style="border-radius: 8px;" >}}
 
 ## What's in a name?
 
 Now that the site is building and deploying without issue, I need to clean up the domain name. The wizard that steps you through this process is once again very easy and took almost all the guess work out of the process.
 
-{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 5.png" alt="Netlify Domain Management" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 7.png" alt="Netlify Domain Management" position="center" style="border-radius: 8px;" >}}
 
 Once I hit the "Add custom domain" button I supplied the domain name I wanted to use, told the wizard I'd like it to handle DNS configuration for me, and then it gave me a list of DNS Name Servers to add to my Google Domains configuration which now looks like this:
 
-{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 9.png" alt="Google Domains Name Server configuration screen" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 3.png" alt="Google Domains Name Server configuration screen" position="center" style="border-radius: 8px;" >}}
 
 Once the DNS configuration propagated my Certificate was issued by [Let's Encrypt](https://letsencrypt.org) and I was able to access my site by the proper domain name
 
-{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 12.png" alt="Final deployment with custom domain applied" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/putting-a-site-on-netlify/putting-a-site-on-netlify 4.png" alt="Final deployment with custom domain applied" position="center" style="border-radius: 8px;" >}}
 
 ## What comes next
 
