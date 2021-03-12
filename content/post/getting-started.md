@@ -73,8 +73,8 @@ Instead of fighting with this much more I decided to try finding a site generato
 
 While Hugo isn't something I have much experience with the learning curve wasn't too rough and it was still just as free to use as Jekyll. The next step was to replace GitHub pages hosting which provided a free way to host my site. For Hugo to be a valid replacement I would also need a way to host this site and apply my domain name for free.
 
-After some research ([and seeing that Hugo provides docs on how to do it](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)) I landed on Netifly. It has a free tier which includes "serverless functions" which GitHub does not. So already it's a better value for someone trying to build a cloud based lab while spending as little cash as possible 👍
+After some research ([and seeing that Hugo provides docs on how to do it](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/)) I landed on Netlify. It has a free tier which includes "serverless functions" which GitHub does not. So already it's a better value for someone trying to build a cloud based lab while spending as little cash as possible 👍
 
 ## Where I go from here
 
-The next post will go over what it was like for me to get this site up and running with my custom domain and SSL on Netifly. I'll also do some initial exploration of the netifly platform as it will all be very new for me!
+The next post will go over what it was like for me to get this site up and running with my custom domain and SSL on Netlify. I'll also do some initial exploration of the netlify platform as it will all be very new for me!
