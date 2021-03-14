@@ -1,7 +1,7 @@
 [build]
+  functions = "functions"
   command = "hugo --minify"
   publish = "public"
-  functions = "functions"
 
 [build.environment]
   HUGO_VERSION = "0.81.0"

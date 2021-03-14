@@ -1,18 +1,19 @@
 package main
 
 import (
-	"fmt"
+	"net/http"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
 func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
-	body := request.Body
-	fmt.Println(body)
 	return &events.APIGatewayProxyResponse{
-		StatusCode:      204,
-		IsBase64Encoded: false,
+		StatusCode:        200,
+		Headers:           map[string]string{"Content-Type": "text/plain"},
+		MultiValueHeaders: http.Header{"Set-Cookie": {"Ding", "Ping"}},
+		Body:              "Hello, World!",
+		IsBase64Encoded:   false,
 	}, nil
 }
 
