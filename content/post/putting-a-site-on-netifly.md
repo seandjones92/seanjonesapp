@@ -51,7 +51,7 @@ Total in 28 ms
 
 So my theme requires at least Hugo version 0.74 and Netlify was attempting to build it with version 0.54.0. When I went to double check my local Hugo install I saw that I was running 0.81.0. I needed to find a way to get everything building in a consistent way.
 
-Luckily there was already [documentation](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/) on how to handle this exact issue!. I followed the steps outlined and set my desired build version in `netlify.toml` which I had created at the root of my repository. I commit this change and pressed the button asking for another deployment attempt. This also failed with the same error. For some reason the newly created configuration file wasn't getting picked up.
+Luckily there was already [documentation](https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/) on how to handle this exact issue!. I followed the steps outlined and set my desired build version in `netifly.toml` which I had created at the root of my repository. I commit this change and pressed the button asking for another deployment attempt. This also failed with the same error. ~~For some reason the newly created configuration file wasn't getting picked up.~~ 👈 This was caused by misspelling "netlify" as "netifly" 🤦
 
 After some more searching I found that I can instead configure this as a variable in Netlify directly.
 
