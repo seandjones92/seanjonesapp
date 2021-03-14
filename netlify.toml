@@ -1,7 +1,7 @@
 [build]
-  functions = "functions"
   command = "hugo --minify"
   publish = "public"
 
 [build.environment]
   HUGO_VERSION = "0.81.0"
+  GO_IMPORT_PATH = "netlify/functions"
